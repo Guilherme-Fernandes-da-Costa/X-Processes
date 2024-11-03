@@ -31,6 +31,7 @@ parser.add_argument('-smp', type=int, default=1, help='simplicity weight (defaul
 args = parser.parse_args()
 
 inputlog = args.log
+# inputlog = 'input-logs/teste-guilherme.xes.gz'
 number_of_islands = args.isl
 number_of_rounds = args.rnd
 max_number_of_generations = args.gen
